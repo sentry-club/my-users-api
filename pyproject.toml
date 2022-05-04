@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "service-error"
+name = "my-users-api"
 version = "v0.1.0"
 description = "A Flask app to present the Sentry Error Tracking"
 authors = ["Felipe Carlos <efelipecarlos@gmail.com>"]
