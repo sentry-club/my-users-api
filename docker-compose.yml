@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+#
+# Copyright (C) 2022 Sentry Club.
+#
+# My Users is free software; you can redistribute it and/or modify it under
+# the terms of the MIT License; see LICENSE file for more details.
+
+version: "3.4"
+services:
+  example-service:
+    image: m3nin0/myusers:v0.1.0
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "5000:5000"
